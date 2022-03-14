@@ -525,7 +525,7 @@ public class NeoFax extends AppCompatActivity
         public void loadDB() throws UnsupportedEncodingException
         {
             try {
-                URL url = new URL("http://decoanit.ir/neofax.sqlite");
+                URL url = new URL("https://github.com/mhn1991/HealthyNeonate/raw/master/neofax.sqlite");
                 URLConnection conection = url.openConnection();
                 conection.connect();
 
