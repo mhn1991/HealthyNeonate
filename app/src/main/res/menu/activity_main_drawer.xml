@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/neofaxlogo"
+            android:icon="@drawable/neofaxlogo"
+            android:title="NEOFAX"
+            android:src="@drawable/neo"/>
+        <item
+            android:id="@+id/prag"
+            android:icon="@drawable/drugpregnancyandlactationlogo"
+            android:title="داروها در شیر دهی و بارداری" />
+        <item
+            android:id="@+id/sspk"
+            android:icon="@drawable/third_bg"
+            android:title="شناسنامه شیر خوار پر خطر" />
+
+        <item
+            android:id="@+id/ictre"
+            android:icon="@drawable/icterlogo"
+            android:title="زردی یا Icter" />
+
+        <item
+            android:id="@+id/rop"
+            android:icon="@drawable/rop_ic"
+            android:title="(ROP)مشکل شبکیه" />
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/setting_ic"
+            android:title="تنظیمات" />
+
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/aboutus_ic"
+            android:title="درباره ما" />
+
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/exit_ic"
+            android:title="خروج" />
+    </group>
+
+</menu>

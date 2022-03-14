@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.pudica.test.ShowDrugs">
+
+    <include layout="@layout/content_show_drugs"
+        android:layout_height="513dp"
+         />
+    <!--<include layout="@layout/new_content_show_drugs" />-->
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/appbar"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:id="@+id/drugTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textDirection="ltr"
+            android:text="TextView"
+            android:layout_gravity="left"/>
+
+        <ImageView
+            android:id="@+id/starimg"
+            android:tag="off"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="right"
+            app:srcCompat="@android:drawable/btn_star_big_off" />
+
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>
